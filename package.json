@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "node node_modules/.bin/ng build --prod",
+    "start": "./node_modules/.bin/ng serve",
+    "build": "./node_modules/.bin/ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "npm run build"
+    "postinstall": "npm install"
 },
   "private": true,
   "dependencies": {
