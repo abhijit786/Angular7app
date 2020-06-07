@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 81.0.4044 (Mac OS X 10.15.2)" package="unit" timestamp="2020-05-22T12:58:55" id="0" hostname="Abhijeets-MacBook-Air.local" tests="24" errors="0" failures="0" time="6.188">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.078" classname="unit.AppComponent"/>
+  <testcase name="AppComponent should render title in a h1 tag" time="0.028" classname="unit.AppComponent"/>
+  <testcase name="InvoiceComponent should create" time="0.461" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent privChange method have been called when clicking on privileged checkbox" time="0.393" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent privChange method have been called when clicking on privileged checkbox(Unchecked)" time="0.381" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent privChange method have been called when clicking on privileged checkbox(checked)" time="0.291" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should call onSelect method when delete an item from list" time="0.357" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent  delete 3rd item  out of 4" time="0.425" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent  delete 3rd item  out of 4" time="0.284" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent  bill items cannot be null" time="0.216" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should make calculation when deleting an item from the array" time="0.23" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should call mouseEnterAddItem method when mouse enter addItemLink division" time="0.259" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should make addItem division style as display:block when mouse enter addItemLink division" time="0.266" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should call mouseLeaveAddItem method when mouse leave addItemLink division" time="0.233" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should make addItem division style as display:none when mouse leave addItemLink division" time="0.225" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should call addItem method when clicking add button" time="0.23" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent add an item into the array" time="0.244" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent add an item into the array with hours and rate as 0 (empty)" time="0.27" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should make calculation when adding an item into the array(Privileged checked)" time="0.214" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should make calculation when adding an item into the array(Privileged Unchecked)" time="0.225" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should display currency value as INR in required places by default" time="0.236" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should display currency value as USD in required places" time="0.192" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should display currency value as INR in required places" time="0.233" classname="unit.InvoiceComponent"/>
+  <testcase name="InvoiceComponent should display currency value as GBP in required places" time="0.217" classname="unit.InvoiceComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: [Object{item: 'Microsoft Office', task: 'Microsoft Office suite installation', hours: 2, rate: 120}, Object{item: 'Oracle SQL developer', task: 'SQL developer installation', hours: 1, rate: 140}]
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: 2
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'item' of undefined', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', TypeError: Cannot read property 'item' of undefined
+TypeError: Cannot read property 'item' of undefined
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/InvoiceComponent.ngfactory.js:197:42)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/vendor.js:56195:21)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55591:14)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execEmbeddedViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55795:17)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55592:5)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execComponentViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55774:13)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55597:5)
+    at callWithDebugContext (http://localhost:9876/_karma_webpack_/vendor.js:56485:25), 'TypeError: Cannot read property 'item' of undefined
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/InvoiceComponent.ngfactory.js:197:42)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/vendor.js:56195:21)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55591:14)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execEmbeddedViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55795:17)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55592:5)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execComponentViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55774:13)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55597:5)
+    at callWithDebugContext (http://localhost:9876/_karma_webpack_/vendor.js:56485:25)'
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: [Object{item: 'Microsoft Office', task: 'Microsoft Office suite installation', hours: 2, rate: 120}, Object{item: 'Oracle SQL developer', task: 'SQL developer installation', hours: 1, rate: 140}, Object{item: 'three', task: 'task3', hours: 5, rate: 1250}, Object{item: 'four', task: 'task4', hours: 8, rate: 1600}]
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: 3
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: [Object{item: 'Microsoft Office', task: 'Microsoft Office suite installation', hours: 2, rate: 120}, Object{item: 'Oracle SQL developer', task: 'SQL developer installation', hours: 1, rate: 140}]
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: 2
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: [Object{item: 'Microsoft Office', task: 'Microsoft Office suite installation', hours: 2, rate: 120}, Object{item: 'Oracle SQL developer', task: 'SQL developer installation', hours: 1, rate: 140}]
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: 2
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) ERROR: 'Unhandled Promise rejection:', 'Cannot read property 'item' of undefined', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', TypeError: Cannot read property 'item' of undefined
+TypeError: Cannot read property 'item' of undefined
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/InvoiceComponent.ngfactory.js:197:42)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/vendor.js:56195:21)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55591:14)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execEmbeddedViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55795:17)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55592:5)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execComponentViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55774:13)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55597:5)
+    at callWithDebugContext (http://localhost:9876/_karma_webpack_/vendor.js:56485:25), 'TypeError: Cannot read property 'item' of undefined
+    at Object.eval [as updateDirectives] (ng:///DynamicTestModule/InvoiceComponent.ngfactory.js:197:42)
+    at Object.debugUpdateDirectives [as updateDirectives] (http://localhost:9876/_karma_webpack_/vendor.js:56195:21)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55591:14)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execEmbeddedViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55795:17)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55592:5)
+    at callViewAction (http://localhost:9876/_karma_webpack_/vendor.js:55832:21)
+    at execComponentViewsAction (http://localhost:9876/_karma_webpack_/vendor.js:55774:13)
+    at checkAndUpdateView (http://localhost:9876/_karma_webpack_/vendor.js:55597:5)
+    at callWithDebugContext (http://localhost:9876/_karma_webpack_/vendor.js:56485:25)'
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: true
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: true
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: false
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: false
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: Object{item: 'OMG software solutions', task: 'Front end development installation', hours: 45, rate: 10200}
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: Object{item: 'OMG software solutions', task: 'Front end development installation', hours: 45, rate: 10200}
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: Object{item: 'OMG software solutions', task: 'Front end development installation', hours: 0, rate: 0}
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: Object{item: 'OMG software solutions', task: 'Front end development installation', hours: 45, rate: 10200}
+,HeadlessChrome 81.0.4044 (Mac OS X 10.15.2) LOG: Object{item: 'OMG software solutions', task: 'Front end development installation', hours: 45, rate: 10200}
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
